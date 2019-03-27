@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MachoTechMacho</title>
 	<link rel="stylesheet" type="text/css" href="machoTech.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 </head>
 <body>
-<h1>Macho Technology</h1>
+  <header role= "banner" class="topBanner">
+  	
+  	<div class="hamburger">
+  		<nav class="sidebar" onclick="toggleSidebar()">
+  			<div class="flyoutMenubtn" >
+  				<span class="line"></span>
+  				<span class="line"></span>
+  				<span class="line"></span>
+  			</div>
+  			<ul class="flyoptionMenu"  >
+  				<li id="titleMenu">option1</li>
+            <ul id="submenu">
+              <li><a href='#'><span>Sub Item</span></a>
+              </li>
+              <li><a href='#'><span>Sub Item</span></a>
+              </li>
+            </ul>
+  				<li>option2</li>
+            <ul id="submenu">
+              <li><a href='#'><span>Sub Item</span></a>
+              </li>
+              <li><a href='#'><span>Sub Item</span></a>
+              </li>
+            </ul>
+  				<li>option3</li>
+  			</ul>
+  		</nav>  	    
+  	  <div id="bannerTitle" >
+  		  <h1>MACHO TECH</h1>
+  	  </div>
+    </div>
+  </header>
+
+  <script type="text/javascript" src="machoTech.js"></script>
 </body>
 </html>
