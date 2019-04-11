@@ -17,7 +17,7 @@ background:#002d3d;
 }
  #bannerTitle{
      float: left;
-     margin-top: -15px;
+     margin-top: 4px;
      padding-left: 10px;
 }
 #bannerTitle h1{
@@ -150,24 +150,33 @@ ul #submenu a{
 	float: left;
 	width:50%;
 	height:250px;
+	background: #ECEBE8;
+	
+
 }
 .intro #introSlider{
 	float: right;
-	background: #E3AF14; 
+	background: #d6d8d9; 
 	width:50%;
 	height:250px;
+
+
 }
 
+.intro #introSlider .card{
+	height:240px;
+	margin:4px 13px 4px 0; 
+}
 #desc {
 color:white;
 width: 80%;
 height: 90%;
-background: #E3AF14;
+background: #c6c8ca;
 margin-left: 20px;
-margin-top: -16px;
+margin-top: 10px;
 
--webkit-clip-path: polygon(23% 0, 100% 0%, 100% 100%, 0% 100%);
-clip-path: polygon(23% 0, 100% 0%, 100% 100%, 0% 100%);
+-webkit-clip-path: polygon(12% 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(12% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 #desc article p{
