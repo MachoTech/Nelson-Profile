@@ -49,7 +49,6 @@ background:#002d3d;
 	border-radius: 10px;
 	transition: all 0.3s ease;
 }
-
 .flyoutMenubtn:hover span{
 	background: #f21d1d;
 }
@@ -65,7 +64,6 @@ background:#002d3d;
 	left:-240px;
 	z-index: 900;	
 }
-
 .flyoptionMenu.active{
    left: 14px;
 }
@@ -107,7 +105,7 @@ ul #submenu a{
 	width: 100%;
 	height: 250px;
 	background: #ECEBE8;
-	margin-top: 30px;
+	margin-top: 100px;
 }
 
  .secTitle {
@@ -145,18 +143,23 @@ ul #submenu a{
 	width: 200px;
 
 }
+#journey h1{
+	margin-top: 150px;
+}
+#aboutme h1{
+	margin-top: 80px
+}
 
 .intro #introImage{
 	float: left;
 	width:50%;
 	height:250px;
-	background: #ECEBE8;
+	background:#ECEBE8;
 	
 
 }
 .intro #introSlider{
-	float: right;
-	background: #d6d8d9; 
+	float: right; 
 	width:50%;
 	height:250px;
 
@@ -170,10 +173,10 @@ ul #submenu a{
 #desc {
 color:white;
 width: 80%;
-height: 90%;
-background: #c6c8ca;
+height: 95%;
+background: #002d3d/*#c6c8ca */;
 margin-left: 20px;
-margin-top: 10px;
+margin-top: 5px;
 
 -webkit-clip-path: polygon(12% 0, 100% 0%, 100% 100%, 0% 100%);
 clip-path: polygon(12% 0, 100% 0%, 100% 100%, 0% 100%);
@@ -181,13 +184,16 @@ clip-path: polygon(12% 0, 100% 0%, 100% 100%, 0% 100%);
 
 #desc article p{
 	
-color:#000;
+color:#ffffff;
 text-align: center;
 padding-top: 80px;
 font-family: Overpass,sans-serif,sans-serif;
 font-weight: 200;
 font-size: 30px;
 
+}
+#desc article button{
+	margin-left: 80px;
 }
 
 #desc article img{
@@ -196,4 +202,64 @@ font-size: 30px;
 	margin: 50px 0 0 120px;
 	max-width: 100px;
 	float:left;
+}
+
+.card h3{
+	background: #002d3d;
+	color: white;
+}
+
+.card-body hr{
+
+	border-color: #ECEBE8;
+}
+
+.myJourney{
+	width: 100%;
+	height: 250px;
+	background: #ffc107;
+	margin-top: 100px;
+	display: block;
+}
+
+.myJourney h1{
+	text-align: center;
+	padding-top: 100px;
+	font-size: 30px;
+}
+
+.lookingSearch{
+	background: #8c8b88a6;
+}
+
+.lookinSearch input{
+   width: 700px;
+   margin-left: 250px;
+   border-radius: 20px;
+   height: 50px;
+  padding-inline-start:20px;
+  padding-inline-end:80px;
+  border: none;
+  outline-style: none;
+}
+.lookinSearch input:hover{
+	/*outline-style: #34495E, #8596A7;*/
+	border:3px solid #92f8f9 ;
+	box-shadow:2px 2px #92f8f9 ;
+	
+}
+
+.lookinSearch button{
+	border-radius: 50px;
+	width: 50px;
+	background: #ffffff/*#002d3d*/;
+	border-style: dotted;
+	height: 45px;
+	margin-left: -80px;
+	font-size: 12px;
+}
+.lookinSearch button:hover{
+	outline-style: none;
+	background: #002d3d;
+	color:white;
 }
