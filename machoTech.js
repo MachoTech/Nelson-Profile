@@ -14,7 +14,9 @@ function toggleSidebar() {
 	}
 }
 
-$("#control").click(function() {
+
+
+$(".control").click(function() {
   window.location = $(this).find("a").attr("href"); 
   return false;
 });
