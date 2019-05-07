@@ -387,7 +387,6 @@ content: "\2014 \2009";
 	display: inline-flex;
 	flex-direction: row;
 	width: 100%;
-	height: 100%;
 	flex-wrap: nowrap;
 	flex-flow: row nowrap;
 	justify-content: space-around;
